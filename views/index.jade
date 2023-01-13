@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Tasks
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js')
+    script(src="/javascripts/test.js")
+  body
+    block content
+      .reqContentContainer
+        div(class="row justify-content-md-center")
+          h4 Introduction
+          div You’re joining a team that is developing a search page for all platforms. As the team's only QA person, it is your job to make sure that the page and every update to it fulfill the standards for quality before rolling out to production. 
+          div The product manager and the designer provide you with the following requirements:
+          ol#task-list(class="list-group list-group-numbered")
+            li(class="list-group-item") User should be able to search by article title or summary, and the search page will be widely used by users in different platforms.
+            li(class="list-group-item") Design should be following the <a href="https://www.figma.com/file/EMnO9L8J6cVDCNAAQmMYLg/Search-(Copy-for-test)?node-id=0%3A1" target="_blank">design file</a> provided by designer.
+          div You will have 35 minutes to finish Part 1 and Part 2, please read the details below and feel free to ask if any questions.
+          div(class="col-sm-1")
+            h6 Process:
+          div(class="col" style="padding-left: 0px")
+            nav(style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb") 
+              ol(class="breadcrumb")
+                li(class="breadcrumb-item") Finish Part 1 (20 minutes)
+                li(class="breadcrumb-item") Inform the interviewer
+                li(class="breadcrumb-item") Finish Part 2 (15 minutes)
+                li(class="breadcrumb-item") Present the results
+            
+        div(class="row justify-content-md-center")
+          div(class="col")
+            h4 Part 1 
+            div(class="taskDescription") Base on the requirements above, the development team just released the 1st version of the <a href="search" target="_blank">search page</a> for testing.
+            h6 Action Items: 
+            ol#task-list(class="list-group list-group-numbered")
+              li(class="list-group-item") Try to explore the <a href="https://www.figma.com/file/EMnO9L8J6cVDCNAAQmMYLg/Search-(Copy-for-test)?node-id=0%3A1" target="_blank">design file</a> and draft high level testing scopes or scenarios 
+              li(class="list-group-item") Please try to explore the <a href="search" target="_blank">search page</a> and note down issues you found
+            h4 Part 2 
+            div(class="taskDescription") The team just released some updates to the <a href="search" target="_blank">search page</a>. After the deployment, Product Manager is approaching you for an issue user reported. 
+            h6 Action Items: 
+            ol#task-list(class="list-group list-group-numbered")
+              li(class="list-group-item") Chat with Product Manager and get information for the issue
+              li(class="list-group-item") Troubleshooting and log bug reports for the issue in the format of your choice
+          div(class="col") 
+            img(src="images/search.png" class="img-fluid rounded float-end polaroid")
+

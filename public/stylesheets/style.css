@@ -1,0 +1,132 @@
+.contentContainer {
+  margin: auto;
+  max-width: 720px;
+  min-width: 466px;
+  padding-top: 100px;
+}
+
+.reqContentContainer {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 466px;
+  padding-top: 20px;
+}
+
+.taskContentContainer {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 466px;
+  padding-top: 20px;
+}
+
+.taskDescription {
+  font-family: "Font Roboto", "Roboto fallback", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+
+.articleDate {
+  font-family: "Font Roboto", "Roboto fallback", sans-serif;
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.articleTitle {
+  font-family: "Font Roboto", "Roboto fallback", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+.articleSummary {
+  font-family: "Font Roboto", "Roboto fallback", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.articleRow {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.articleSearchBar {
+  padding-left: 16px;
+  padding-right: 30px;
+}
+
+.articleSearchBarInput {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+
+.articleSearchBarInput:focus {
+  outline: none !important;
+}
+
+.articleSearchBarIcon {
+  border: none !important;
+  color: inherit;
+}
+
+.articleSearchBarIcon:hover {
+    background-color: unset !important;
+    color: unset !important;
+}
+
+.articleSearchBarIcon:focus {
+    background-color: unset !important;
+    color: unset !important;
+    border-style: unset !important;
+    border-color: none !important;
+    outline: none;
+}
+
+.articleImageExtraMargin {
+  margin-right: 15px;
+}
+
+.articleTitleExtraMargin {
+  padding-bottom: 0px;
+}
+
+img.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+ol#task-list {
+  padding-bottom: 30px;
+}
+
+ol#task-list li {
+  border-top: none !important;
+  border-radius: unset !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+ol#req-list {
+  padding-bottom: 30px;
+}
+
+ol#req-list li {
+  border-top: none !important;
+  border-radius: unset !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
